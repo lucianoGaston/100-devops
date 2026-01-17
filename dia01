@@ -1,0 +1,7 @@
+# Primer Dia prácticando Linux
+#1primer paso conectarse a un servidor 
+ssh usuario@nombreservidor
+#2 crear el usario
+#useradd  -s /sbin/nologin usuario
+#para verficiar si se ha creado 
+grep usuario /etc/passwd
